@@ -1,0 +1,162 @@
+@import url(https://fonts.bunny.net/css?family=roboto:400,500,700|space-mono:400,700|roboto-serif:400,500);
+
+body {
+	background-color: #fffcf9;
+	box-sizing: border-box;
+	color: #340068;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto Serif", serif;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 5rem;
+	font-weight: 400;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-size: 3.125rem;
+	font-weight: 500;
+	letter-spacing: -0.5px;
+}
+
+h3 {
+	font-size: 2.375rem;
+	letter-spacing: 0;
+	margin: 2rem 0;
+}
+
+h4 {
+	font-size: 1.875rem;
+	letter-spacing: 0.25px;
+	margin: 2rem 0;
+}
+
+h5 {
+	font-size: 1.5rem;
+	letter-spacing: 0.25px;
+	margin: 2rem 0;
+}
+
+h6 {
+	font-size: 1.25rem;
+	letter-spacing: 0.25px;
+	margin: 2rem 0;
+}
+
+code {
+	color: #ff6978;
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+.hero {
+	align-items: center;
+	background-color: #b1ede8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+	text-align: center;
+}
+
+.hero-content {
+	font-size: 1.2rem;
+}
+
+.hero-heading, .hero-content {
+	margin: 16px 0;
+	max-width: 900px;
+	width: 75%;
+}
+
+.hero hr {
+	border: 0;
+	border-bottom: 1px solid #340068;
+	margin: 2rem 0;
+	width: 50%;
+}
+
+.main-content {
+	margin: 2rem auto;
+	max-width: 900px;
+	padding: 0 2rem;
+}
+
+.post-meta {
+	color: #340068;
+	font-family: "Roboto Serif", serif;
+	font-size: 0.875rem;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.post-meta span {
+	color: #ff6978;
+}
+
+.headline {
+	font-size: 1.125rem;
+	font-weight: 500;
+	margin: 40px 0;
+	text-transform: uppercase;
+}
+
+
+.quote {
+	border-left: 2px solid #ff6978;
+	font-size: 1rem;
+	font-style: italic;
+	margin: 1.5rem 2rem 3rem;
+	padding: 0 1rem;
+}
+
+.quote-cite {
+	display: block;
+	font-weight: 700;
+	margin-left: 1rem;
+}
+
+.content-block {
+	margin: 2rem 0;
+}
+
+.content-block h3 {
+
+	text-transform: capitalize;
+}
+
+.footer {
+	background-color: #b1ede8;
+	color: #340068;
+	font-size: 0.875rem;
+	font-weight: 500;
+	margin: 2rem 0;
+	padding: 2rem 0;
+	text-align: center;
+}
+
+.footer-link {
+	display: inline-block;
+}
+
+.footer-link:not(:last-child) {
+	margin-right: 2rem;
+}
+
+.footer-link a {
+	color: #340068;
+	text-decoration: none;
+}
